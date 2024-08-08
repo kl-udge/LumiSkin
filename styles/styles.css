@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style-type: none;
+}
+
+a:any-link {
+    text-decoration: none;
+    color: unset;
+}
+
+input, textarea, button {
+    font: inherit;
+}
+
+:root {
+    --BG-COLOR1: rgb(176, 87, 42);
+    --BTN-COLOR: rgb(160, 8, 8);
+    --FONT-SIZE: clamp(1.5rem, 3vh, 2.25rem);
+    --FONT-WEIGHT: 900;
+}
